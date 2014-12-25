@@ -90,6 +90,20 @@
 							<artifactId>oss-build</artifactId>
 							<version>0.1.0-SNAPSHOT</version>
 						</dependency>
+						
+						<!-- Use the latest checkstyle version as it is compatible with java 1.8 -->
+					    <dependency>
+					      <groupId>com.puppycrawl.tools</groupId>
+					      <artifactId>checkstyle</artifactId>
+					      <version>6.1.1</version>
+					      <exclusions>
+					        <!-- MCHECKSTYLE-156 -->
+					        <exclusion>
+					          <groupId>com.sun</groupId>
+					          <artifactId>tools</artifactId>
+					        </exclusion>
+					      </exclusions>
+					    </dependency>						
 					</dependencies>
 				</plugin>
 
