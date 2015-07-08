@@ -171,7 +171,7 @@
                         <dependency>
                             <groupId>com.mattjtodd</groupId>
                             <artifactId>oss-build</artifactId>
-                            <version>0.1.1</version>
+                            <version>0.1.2</version>
                         </dependency>
 
                         <!-- Use the latest checkstyle version as it is compatible with java 1.8 -->
