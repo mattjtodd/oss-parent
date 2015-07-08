@@ -19,7 +19,7 @@
     <groupId>com.mattjtodd</groupId>
     <artifactId>oss-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <name>OSS Parent</name>
     <description>Parent POM for OSS projects</description>
@@ -54,7 +54,7 @@
         <connection>scm:git:git@github.com:mattjtodd/${project.artifactId}.git</connection>
         <developerConnection>scm:git:git@github.com:mattjtodd/${project.artifactId}.git</developerConnection>
         <url>https://github.com/mattjtodd/oss-parent</url>
-        <tag>0.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
